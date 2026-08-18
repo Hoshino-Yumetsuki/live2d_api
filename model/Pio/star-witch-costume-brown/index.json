@@ -2,7 +2,7 @@
 	"version":"1.0.0",
 	"model":"../general/model.moc",
     "textures":[
-        "textures/star-witch-costume-brown.webp"
+        "textures/star-witch-costume-brown.png"
     ],
     "layout":{
 		"center_x":0.0,

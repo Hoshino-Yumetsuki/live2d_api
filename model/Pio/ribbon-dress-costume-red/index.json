@@ -2,7 +2,7 @@
 	"version":"1.0.0",
 	"model":"../general/model.moc",
     "textures":[
-        "textures/ribbon-dress-costume-red.webp"
+        "textures/ribbon-dress-costume-red.png"
     ],
     "layout":{
 		"center_x":0.0,

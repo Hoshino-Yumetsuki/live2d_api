@@ -4,10 +4,10 @@
     "label":"33",
     "model":"../general/model.moc",
     "textures":[
-        "textures/closet-default-v2.webp",
-        "textures/valley2017-upper.webp",
-        "textures/valley2017-lower.webp",
-        "textures/valley2017-hat.webp"
+        "textures/closet-default-v2.png",
+        "textures/valley2017-upper.png",
+        "textures/valley2017-lower.png",
+        "textures/valley2017-hat.png"
     ],
     "layout":{
         "center_x": 0,

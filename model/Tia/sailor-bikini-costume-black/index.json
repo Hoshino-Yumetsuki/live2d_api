@@ -2,7 +2,7 @@
     "version":"1.0.0",
     "model":"../general/model.moc",
     "textures":[
-        "textures/sailor-bikini-costume-black.webp"
+        "textures/sailor-bikini-costume-black.png"
     ],
     "layout":{
         "center_x":0.0,

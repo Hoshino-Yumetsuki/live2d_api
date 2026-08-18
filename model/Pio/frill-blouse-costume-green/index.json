@@ -2,7 +2,7 @@
 	"version":"1.0.0",
 	"model":"../general/model.moc",
     "textures":[
-        "textures/frill-blouse-costume-green.webp"
+        "textures/frill-blouse-costume-green.png"
     ],
     "layout":{
 		"center_x":0.0,

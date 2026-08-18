@@ -2,7 +2,7 @@
 	"version":"1.0.0",
 	"model":"../general/model.moc",
     "textures":[
-        "textures/sinsiroad-shop-costume-senior.webp"
+        "textures/sinsiroad-shop-costume-senior.png"
     ],
     "layout":{
 		"center_x":0.0,

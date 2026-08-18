@@ -2,7 +2,7 @@
     "version":"1.0.0",
     "model":"../general/model.moc",
     "textures":[
-        "textures/maid-costume-blue.webp"
+        "textures/maid-costume-blue.png"
     ],
     "layout":{
         "center_x":0.0,

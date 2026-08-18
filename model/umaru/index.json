@@ -2,7 +2,7 @@
   "posted": "Dreamer-Paul",
   "model": "model.moc",
   "textures": [
-    "textures/texture_00.webp"
+    "textures/texture_00.png"
   ],
   "physics": "physics.json",
   "layout": {

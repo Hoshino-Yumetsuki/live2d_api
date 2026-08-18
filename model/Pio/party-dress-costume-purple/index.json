@@ -2,7 +2,7 @@
 	"version":"1.0.0",
 	"model":"../general/model.moc",
     "textures":[
-        "textures/party-dress-costume-purple.webp"
+        "textures/party-dress-costume-purple.png"
     ],
     "layout":{
 		"center_x":0.0,

@@ -4,10 +4,10 @@
     "label":"33",
     "model":"../general/model.moc",
     "textures":[
-        "textures/closet-default-v2.webp",
-        "textures/cba-super-upper.webp",
-        "textures/cba-super-lower.webp",
-        "textures/cba-hat.webp"
+        "textures/closet-default-v2.png",
+        "textures/cba-super-upper.png",
+        "textures/cba-super-lower.png",
+        "textures/cba-hat.png"
     ],
     "layout":{
         "center_x": 0,

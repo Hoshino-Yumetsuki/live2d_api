@@ -2,7 +2,7 @@
   "name": "model",
   "model": "model.moc",
   "textures": [
-    "textures/texture_00.webp"
+    "textures/texture_00.png"
   ],
   "layout": {
     "center_x": -0.3,

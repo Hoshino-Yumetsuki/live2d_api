@@ -3,10 +3,10 @@
   "model": "moc/asuna_01.moc",
   "name":"asuna_01",
   "textures": [
-    "../general/assets/texture_00.webp",
-    "../general/assets/texture_01.webp",
-    "moc/asuna_01.1024/texture_02.webp",
-    "moc/asuna_01.1024/texture_03.webp"],
+    "../general/assets/texture_00.png",
+    "../general/assets/texture_01.png",
+    "moc/asuna_01.1024/texture_02.png",
+    "moc/asuna_01.1024/texture_03.png"],
   "layout": {
     "width": 1.1,
     "center_x": -0.0507,
