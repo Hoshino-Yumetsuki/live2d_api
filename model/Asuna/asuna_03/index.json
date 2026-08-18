@@ -4,8 +4,8 @@
   "textures": [
     "../general/assets/texture_00.webp",
     "../general/assets/texture_01.webp",
-    "moc/asuna_04.1024/texture_02.webp",
-    "moc/asuna_04.1024/texture_03.webp"],
+    "moc/asuna_03.1024/texture_02.webp",
+    "moc/asuna_03.1024/texture_03.webp"],
   "expressions": [{
     "name": "F_FUN",
     "file": "../general/exp/F_FUN.exp.json"
