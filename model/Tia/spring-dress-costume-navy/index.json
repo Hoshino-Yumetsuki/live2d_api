@@ -2,7 +2,7 @@
     "version":"1.0.0",
     "model":"../general/model.moc",
     "textures":[
-        "textures/spring-dress-costume-navy.png"
+        "textures/spring-dress-costume-navy.webp"
     ],
     "layout":{
         "center_x":0.0,

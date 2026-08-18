@@ -2,7 +2,7 @@
 	"version":"1.0.0",
 	"model":"../general/model.moc",
     "textures":[
-        "textures/elementary-school-costume.png"
+        "textures/elementary-school-costume.webp"
     ],
     "layout":{
 		"center_x":0.0,

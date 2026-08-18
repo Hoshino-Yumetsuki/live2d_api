@@ -2,7 +2,7 @@
 	"version":"1.0.0",
 	"model":"../general/model.moc",
     "textures":[
-        "textures/winter-coat-costume-white.png"
+        "textures/winter-coat-costume-white.webp"
     ],
     "layout":{
 		"center_x":0.0,

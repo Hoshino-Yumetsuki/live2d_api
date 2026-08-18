@@ -2,7 +2,7 @@
 	"version":"1.0.0",
 	"model":"../general/model.moc",
     "textures":[
-        "textures/sfc-uniform-costume-yellow.png"
+        "textures/sfc-uniform-costume-yellow.webp"
     ],
     "layout":{
 		"center_x":0.0,

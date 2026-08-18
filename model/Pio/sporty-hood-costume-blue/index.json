@@ -2,7 +2,7 @@
 	"version":"1.0.0",
 	"model":"../general/model.moc",
     "textures":[
-        "textures/sporty-hood-costume-blue.png"
+        "textures/sporty-hood-costume-blue.webp"
     ],
     "layout":{
 		"center_x":0.0,

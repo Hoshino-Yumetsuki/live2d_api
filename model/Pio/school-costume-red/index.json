@@ -2,7 +2,7 @@
 	"version":"1.0.0",
 	"model":"../general/model.moc",
     "textures":[
-        "textures/school-costume-red.png"
+        "textures/school-costume-red.webp"
     ],
     "layout":{
 		"center_x":0.0,

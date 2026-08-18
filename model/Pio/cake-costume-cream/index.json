@@ -2,7 +2,7 @@
 	"version":"1.0.0",
 	"model":"../general/model.moc",
     "textures":[
-        "textures/cake-costume-cream.png"
+        "textures/cake-costume-cream.webp"
     ],
     "layout":{
 		"center_x":0.0,

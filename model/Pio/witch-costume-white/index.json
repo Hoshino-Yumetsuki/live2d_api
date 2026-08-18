@@ -2,7 +2,7 @@
 	"version":"1.0.0",
 	"model":"../general/model.moc",
     "textures":[
-        "textures/witch-costume-white.png"
+        "textures/witch-costume-white.webp"
     ],
     "layout":{
 		"center_x":0.0,

@@ -2,7 +2,7 @@
 	"version":"1.0.0",
 	"model":"../general/model.moc",
     "textures":[
-        "textures/tirami1-costume.png"
+        "textures/tirami1-costume.webp"
     ],
     "layout":{
 		"center_x":0.0,

@@ -2,7 +2,7 @@
     "version":"1.0.0",
     "model":"../general/model.moc",
     "textures":[
-        "textures/sports-bikini-costume-green.png"
+        "textures/sports-bikini-costume-green.webp"
     ],
     "layout":{
         "center_x":0.0,

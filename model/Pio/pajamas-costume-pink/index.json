@@ -2,7 +2,7 @@
 	"version":"1.0.0",
 	"model":"../general/model.moc",
     "textures":[
-        "textures/pajamas-costume-pink.png"
+        "textures/pajamas-costume-pink.webp"
     ],
     "layout":{
 		"center_x":0.0,

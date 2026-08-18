@@ -2,7 +2,7 @@
     "version":"1.0.0",
     "model":"../general/model.moc",
     "textures":[
-        "textures/magical-girl-costume.png"
+        "textures/magical-girl-costume.webp"
     ],
     "layout":{
         "center_x":0.0,

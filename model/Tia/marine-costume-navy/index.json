@@ -2,7 +2,7 @@
     "version":"1.0.0",
     "model":"../general/model.moc",
     "textures":[
-        "textures/marine-costume-navy.png"
+        "textures/marine-costume-navy.webp"
     ],
     "layout":{
         "center_x":0.0,

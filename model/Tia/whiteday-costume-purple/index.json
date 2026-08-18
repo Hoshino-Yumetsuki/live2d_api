@@ -2,7 +2,7 @@
     "version":"1.0.0",
     "model":"../general/model.moc",
     "textures":[
-        "textures/whiteday-costume-purple.png"
+        "textures/whiteday-costume-purple.webp"
     ],
     "layout":{
         "center_x":0.0,

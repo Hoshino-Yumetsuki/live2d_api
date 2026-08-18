@@ -2,7 +2,7 @@
 	"version":"1.0.0",
 	"model":"../general/model.moc",
     "textures":[
-        "textures/new2015-costume.png"
+        "textures/new2015-costume.webp"
     ],
     "layout":{
 		"center_x":0.0,

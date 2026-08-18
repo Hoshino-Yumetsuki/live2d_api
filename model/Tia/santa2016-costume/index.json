@@ -2,7 +2,7 @@
     "version":"1.0.0",
     "model":"../general/model.moc",
     "textures":[
-        "textures/santa2016-costume.png"
+        "textures/santa2016-costume.webp"
     ],
     "layout":{
         "center_x":0.0,

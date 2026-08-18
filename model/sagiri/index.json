@@ -3,8 +3,8 @@
     "version": "Live2DViewerEX Config 1.0",
     "model": "sagiri.moc",
     "textures": [
-        "textures/texture_00.png",
-        "textures/texture_01.png"
+        "textures/texture_00.webp",
+        "textures/texture_01.webp"
     ],
     "layout": {
         "center_x": 0,
