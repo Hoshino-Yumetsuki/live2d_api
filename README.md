@@ -4,7 +4,7 @@ Live2D 看板娘插件 (https://www.fghrsh.net/post/123.html) 上使用的后端
 
 ### 特性
 
-- 原生 PHP 开发，无需伪静态，开箱即用
+- 静态文件部署，无需服务器端运行时
 - 支持 模型、皮肤 的 顺序切换 和 随机切换
 - 支持 单模型 单皮肤 切换、多组皮肤 递归穷举
 - 支持 同分组 多个模型 或 多个路径 的 加载切换
@@ -12,8 +12,7 @@ Live2D 看板娘插件 (https://www.fghrsh.net/post/123.html) 上使用的后端
 ## 使用
 
 ### 环境要求
-- PHP 版本 >= 5.2
-- 依赖 PHP 扩展：json
+无需 PHP 或其他服务器端运行时。
 
 ### 目录结构
 
@@ -24,16 +23,7 @@ Live2D 看板娘插件 (https://www.fghrsh.net/post/123.html) 上使用的后端
 │  └─GroupName                  // 模组分组
 │      └─ModelName              // 模型名称
 │
-├─add                           // 更新皮肤列表
-├─get                           // 获取模型配置
-├─rand                          // 随机切换模型
-├─rand_textures                 // 随机切换皮肤
-├─switch                        // 顺序切换模型
-├─switch_textures               // 顺序切换皮肤
-└─tools
-        modelList.php           // 列出模型列表
-        modelTextures.php       // 列出皮肤列表
-        name-to-lower.php       // 文件名格式化
+└─_headers                      // 静态资源响应头
 ```
 
 ### 添加模型
@@ -45,7 +35,7 @@ Live2D 看板娘插件 (https://www.fghrsh.net/post/123.html) 上使用的后端
 ```shell
 │  index.json
 │  model.moc
-│  textures.cache       // 皮肤列表缓存，自动生成
+│  textures.cache       // 可选的皮肤列表缓存
 │
 ├─motions
 │      idle_01.mtn
@@ -65,7 +55,7 @@ Live2D 看板娘插件 (https://www.fghrsh.net/post/123.html) 上使用的后端
 ```shell
 │  index.json
 │  model.moc
-│  textures.cache
+│  textures.cache       // 可选的皮肤列表缓存
 │  textures_order.json
 │
 ├─motions
@@ -101,18 +91,7 @@ textures_order.json
 ]
 ```
 
-textures.cache
-
-```json
-[
-    ["texture_00/00.png","texture_01/00.png","texture_02/00.png","texture_03/00.png"],
-    ["texture_00/00.png","texture_01/00.png","texture_02/00.png","texture_03/01.png"],
-    ["texture_00/00.png","texture_01/01.png","texture_02/01.png","texture_03/00.png"],
-    ["texture_00/00.png","texture_01/01.png","texture_02/01.png","texture_03/01.png"],
-    ["texture_00/00.png","texture_01/02.png","texture_02/02.png","texture_03/00.png"],
-    ["texture_00/00.png","texture_01/02.png","texture_02/02.png","texture_03/01.png"]
-]
-```
+textures.cache 为可选缓存。缺失时，客户端直接使用 `index.json` 中的 `textures` 配置。
 
 - 同分组 多个模型 或 多个路径 切换
     - 修改 `model_list.json` 添加多个模型
@@ -159,13 +138,11 @@ model_list.json
 }
 ```
 
-### 接口用法
-- `/add/` - 检测 新增皮肤 并更新 缓存列表
-- `/get/?id=1-23` 获取 分组 1 的 第 23 号 皮肤
-- `/rand/?id=1` 根据 上一分组 随机切换
-- `/switch/?id=1` 根据 上一分组 顺序切换
-- `/rand_textures/?id=1-23` 根据 上一皮肤 随机切换 同分组其他皮肤
-- `/switch_textures/?id=1-23` 根据 上一皮肤 顺序切换 同分组其他皮肤
+### 资源访问
+模型配置通过静态文件直接访问，例如：
+- `/model_list.json` 获取模型和服装列表
+- `/model/GroupName/ModelName/index.json` 获取模型配置
+- `index.json` 中声明的纹理、模型和动作文件均为静态资源
 
 ## 版权声明
 
