@@ -2,3 +2,39 @@
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Methods: GET, HEAD, OPTIONS
   Access-Control-Allow-Headers: Content-Type
+
+/:file.moc
+ Content-Type: application/octet-stream
+
+/:file.moc3
+ Content-Type: application/octet-stream
+
+/:file.mtn
+ Content-Type: application/octet-stream
+
+/:file.cache
+ Content-Type: application/json
+
+/model/:group/:model/:file.moc
+ Content-Type: application/octet-stream
+
+/model/:group/:model/:file.moc3
+ Content-Type: application/octet-stream
+
+/model/:group/:model/:file.mtn
+ Content-Type: application/octet-stream
+
+/model/:group/:model/:file.cache
+ Content-Type: application/json
+
+/model/:group/:model/:dir/:file.moc
+ Content-Type: application/octet-stream
+
+/model/:group/:model/:dir/:file.moc3
+ Content-Type: application/octet-stream
+
+/model/:group/:model/:dir/:file.mtn
+ Content-Type: application/octet-stream
+
+/model/:group/:model/:dir/:file.cache
+ Content-Type: application/json
